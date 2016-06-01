@@ -1,0 +1,16 @@
+.aproduct {
+  display: inline-block;
+  border: 3px solid lightblue;
+  margin: 5px;
+  padding: 15px;
+  text-align: center;
+  box-shadow: 1px 1px 3px lightgrey;
+}
+
+.tiny {
+  font-size: .8em;
+}
+
+.red {
+  color: red;
+}
