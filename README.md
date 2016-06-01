@@ -28,7 +28,7 @@ cd 12-seasonal-sales
 open index.html
 ```
 
-[Live Site On Github]()
+[Live Site On Github](http://megancford.github.io/NSS-SPA-12-seasonalSales)
 
 
 ![screenshot](seasonal-sales-screenshot.jpg)
