@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>Seasonal Sales</title>
+  <link rel="stylesheet" href="main.css">
+</head>
+<body>
+  <header id="header" class="">
+    <h3>Seasonal Sales</h3>
+    <select id="seasonSelector" >
+      <option value = "select" id = "select" class = "discounts" selected >Choose A Season</option>
+      <option value="Autumn" id = "Autumn" class = "discounts">Autumn Discounts</option>
+      <option value = "Winter" id = "Winter" class = "discounts">Winter Discounts</option>
+      <option value = "Spring" id = "Spring"class = "discounts">Spring Discounts</option>
+    </select>
+  </header>
+
+  <div id = "productGrid">
+    <!-- product cards go here. -->
+  </div>
+  
+</body>
+<script src = "js/sales.js"></script>
+<script src = "js/dom.js"></script>
+</html>
+
+
+<!-- Your job is to build a web page that lists all of the products, the name of the department it's in, and the price. Additionally, put a <select> element at the top of the page that contains all possible values of the season_discount key in the categories file. As soon as you select one of the seasons, all prices on the page should immediately be discounted by the corresponding percentage.
+
+For example, when Spring is chosen, all products in the corresponding Household category should have their prices updated with a 15% discount off the base price. -->
